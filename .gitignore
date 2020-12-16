@@ -19,6 +19,7 @@
 .env.production.local
 .editorconfig
 .prettierrc
+.eslintcache
 
 
 npm-debug.log*
