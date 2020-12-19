@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import {LocationOn, Cake} from '../../styles/Icons'
+import {LocationOn, Cake, Calendar} from '../../styles/Icons'
 import Button from '../Button'
 
 export const Container = styled.div`
@@ -25,7 +25,7 @@ position: relative;
 `;
 export const Avatar = styled.div`
 width: max(45px, min(135px, 22vw));
-height: margin(45px, min(135px, 22vw));
+height: max(45px, min(135px, 22vw));
 
 border: 3.75px solid var(--primary);
 background: var(--gray);
@@ -89,6 +89,9 @@ color: var(--gray);
 export const LocationIcon = styled(LocationOn)`${iconCSS}`;
 
 export const CackeIcon = styled(Cake)`${iconCSS}`;
+
+export const CalendarIcon = styled(Calendar)`${iconCSS}`;
+
 
 export const Followage = styled.div`
 display: flex;

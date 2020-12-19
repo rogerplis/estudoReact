@@ -9,7 +9,8 @@ import {
     LocationIcon,
     CackeIcon,
     Followage,
-    EditButton
+    EditButton,
+    CalendarIcon
 } from './styles';
 
 const ProfilePage: React.FC = () => {
@@ -28,11 +29,14 @@ const ProfilePage: React.FC = () => {
               <ul>
                   <li>
                       <LocationIcon/>
-                      Santo André, Brasil
+                      Santo André, SP
+                      <CalendarIcon/>
+                      Ingressou em Julho de 2009
                   </li>
                   <li>
                       <CackeIcon/>
                       Nascido em 05 de julho de 1975
+                      
                   </li>
               </ul>
               <Followage>
